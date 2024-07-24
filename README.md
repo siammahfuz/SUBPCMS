@@ -41,9 +41,9 @@ Laravel is a web application framework with expressive, elegant syntax, making d
 
 We extend our thanks to the following sponsors for funding Laravel development. Interested in becoming a sponsor? Contact: ksiam3409@gmail.com 
 
-🤝 Partners
+🤝 Partners: Md. Mahfuzur Rahman Siam
 
-🙌 Contributors
+🙌 Contributors:  Md. Mahfuzur Rahman Siam 
 
 We extend our gratitude to the following contributors for their valuable contributions to SMSLAB:
 
