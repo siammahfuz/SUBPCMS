@@ -45,7 +45,7 @@ We extend our thanks to the following sponsors for funding Laravel development. 
 
 🙌 Contributors:  Md. Mahfuzur Rahman Siam 
 
-We extend our gratitude to the following contributors for their valuable contributions to SMSLAB:
+We extend our gratitude to the following contributors for their valuable contributions to SUBPCMS:
 
 - https://github.com/siammahfuz/SUBPCMS
 
