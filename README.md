@@ -10,46 +10,60 @@
 </p>
 <p align="center">A robust and user-friendly Programming Contest Management System built on the Laravel framework. Simplifying common tasks in Programming Contest Management System for seamless workflow in educational institutions.</p>
 
+SUB Programming Contest Management System
+SUB Programming Contest Management System is a professional-grade platform developed to streamline and manage programming contests for State University of Bangladesh (SUB). This system is built to support the end-to-end workflow of competitive programming events — from registration and problem distribution to automated judging and result publication.
 
-## 🚀 Features
+⚠️ Note: Due to the official and proprietary nature of this project, the full source code is not publicly available in this repository.
 
-- **User-Friendly Interface** 🌐: Intuitive interface for administrators, teachers, and students.
-- **Home**🏫: All the news of SUB Programming Contest will publish here with Gallery.
-- **About SUB**🎓: The history of SUB and SUB Programming Contest.
-- **Contest**🤖: Problem solving with programming language like C, C++, Java, Python etc.
-- **Registration**💻: Registration information with contestant Name, Email, Photo etc.
-- **Payment and Verification**💳: Mobile Banking like Bkash, Nogod, Ucash and Bank account.
-- **Team Payment details**🧾: Deatails of Programming contest Teams with Paument information.
-- **Team and details**📓: Teams Members, Coach details, Payment details will shown here.
-- **Kit Management**👕: Pen, Pencil, R-shirt management wilkl shown here.
-- **Volunteer**👦🏽: Volunteer Names and Pictures will shown here.
-- **Sponsor**💵: SUB Programming Contest Sponsor's name and logo will be shown here.
+📌 Project Overview
+This system was developed to serve as a dedicated solution for handling internal and inter-university programming contests at SUB. It ensures reliability, security, and scalability while offering a clean and intuitive interface for both organizers and participants.
 
+Key roles supported include:
 
+Admin Panel: Manage contests, users, problems, and configurations
 
-## 🛠️ Installation
+Contestants' Interface: Participate in live contests, submit solutions, view standings
 
-Follow the steps below to set up SMSLAB on your local machine:
+Judge System: Automated code evaluation with real-time feedback
 
-1. Clone the repository:
+🧩 Key Features
+User authentication and role-based access control
 
-   ```bash
-   https://github.com/siammahfuz/SUBPCMS
+Contest creation, scheduling, and management
 
-Laravel is a web application framework with expressive, elegant syntax, making development an enjoyable and creative experience.
-🌟 Sponsors
+Problem uploading with constraints and test cases
 
-We extend our thanks to the following sponsors for funding Laravel development. Interested in becoming a sponsor? Contact: ksiam3409@gmail.com 
+Real-time code submission and automated judging
 
-🤝 Partners: Md. Mahfuzur Rahman Siam
+Leaderboard with live updates and tie-break handling
 
-🙌 Contributors:  Md. Mahfuzur Rahman Siam 
+Secure sandbox environment for code execution
 
-We extend our gratitude to the following contributors for their valuable contributions to SUBPCMS:
+Responsive UI/UX optimized for desktop and mobile views
 
-- https://github.com/siammahfuz/SUBPCMS
+Admin tools for rejudging, manual override, and analytics
 
+🛠️ Technologies Used
+Backend: PHP, MySQL
 
-📜 License
+Frontend: HTML5, CSS3, JavaScript (with possible frameworks)
 
-SUBPCMS-SUB Programming Contest Management System
+Judging System: Custom script runner with sandboxing (language support: C, C++, Java, Python, etc.)
+
+Deployment: Hosted on a secure internal or university-managed server
+
+🚫 Code Availability
+Due to institutional policies and confidentiality, the full source code of this project is not available in this repository. Only limited documentation, architecture overview, or mock components may be shared if appropriate.
+
+If you're interested in similar solutions or seeking a collaboration for academic institutions, feel free to get in touch.
+
+📄 License
+This project is protected and owned by State University of Bangladesh. Unauthorized reproduction or reuse of any part of the system is strictly prohibited.
+
+💬 Contact
+For inquiries, collaborations, or demonstration requests:
+
+Md Mahfuzur Rahman Siam
+Lead Developer – SUB Programming Contest Management System
+📧 Email: ksiam3409@gmail.com
+🌐 Portfolio: https://siammahfuz.github.io
