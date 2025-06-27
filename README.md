@@ -3,67 +3,58 @@
     <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
   </a>
 </p>
-<h1 align="center">SUBPCMS-SUB Programming Contest Management System</h1>
+<h1 align="center">SMSLAB - Student Management System</h1>
 
 <p align="center">
-  <img src="INSERT_YOUR_LOGO_URL" width="150" alt="SUBPCMS Logo">
+  <img src="INSERT_YOUR_LOGO_URL" width="150" alt="SMSLAB Logo">
 </p>
-<p align="center">A robust and user-friendly Programming Contest Management System built on the Laravel framework. Simplifying common tasks in Programming Contest Management System for seamless workflow in educational institutions.</p>
+<p align="center">A robust and user-friendly Student Management System built on the Laravel framework. Simplifying common tasks in student management for seamless workflow in educational institutions.</p>
 
-SUB Programming Contest Management System
-SUB Programming Contest Management System is a professional-grade platform developed to streamline and manage programming contests for State University of Bangladesh (SUB). This system is built to support the end-to-end workflow of competitive programming events — from registration and problem distribution to automated judging and result publication.
 
-⚠️ Note: Due to the official and proprietary nature of this project, the full source code is not publicly available in this repository.
+## 🚀 Features
 
-📌 Project Overview
-This system was developed to serve as a dedicated solution for handling internal and inter-university programming contests at SUB. It ensures reliability, security, and scalability while offering a clean and intuitive interface for both organizers and participants.
+- **User-Friendly Interface** 🌐: Intuitive interface for administrators, teachers, and students.
+- **Attendance Tracking** 📅: Easily monitor student attendance.
+- **Grade Management** 🎓: Effortlessly organize student grades and academic performance.
+- **Communication Hub** 📧: Foster collaboration among teachers, students, and parents.
+- **Security Measures** 🔒: Prioritize student data security with robust measures.
+- **Programming Judge** 💻: Evaluate and grade programming assignments efficiently.
+- **Voting System** 🗳️: Conduct polls for student elections and decision-making.
+- **Blood System** 🩸: Manage a blood donation system for emergencies.
+- **Library Management** 📚: Organize library resources, checkouts, and returns.
+- **Event Calendar** 📅: Manage academic and extracurricular events.
+- **Student Performance Analytics** 📊: Visualize and analyze student performance trends.
+- **Parental Portal** 👨‍👩‍👧: Provide parents a portal to monitor academic progress.
+- **Classroom Collaboration Tools** 🤝: Facilitate collaborative learning with project tools.
+- **Internship/Job Board** 💼: Connect students with relevant opportunities.
+- **Feedback System** 📝: Gather feedback to enhance the educational experience.
+- **Mobile Accessibility** 📱: Ensure accessibility through a responsive design.
 
-Key roles supported include:
 
-Admin Panel: Manage contests, users, problems, and configurations
 
-Contestants' Interface: Participate in live contests, submit solutions, view standings
+## 🛠️ Installation
 
-Judge System: Automated code evaluation with real-time feedback
+Follow the steps below to set up SMSLAB on your local machine:
 
-🧩 Key Features
-User authentication and role-based access control
+1. Clone the repository:
 
-Contest creation, scheduling, and management
+   ```bash
+   git clone https://github.com/n3o-d4rk3r/substudentms.git
 
-Problem uploading with constraints and test cases
+Laravel is a web application framework with expressive, elegant syntax, making development an enjoyable and creative experience.
+🌟 Sponsors
 
-Real-time code submission and automated judging
+We extend our thanks to the following sponsors for funding Laravel development. Interested in becoming a sponsor? Contact: ictd.kabir@gmail.com.
 
-Leaderboard with live updates and tie-break handling
+🤝 Partners
+🙌 Contributors
 
-Secure sandbox environment for code execution
+We extend our gratitude to the following contributors for their valuable contributions to SMSLAB:
 
-Responsive UI/UX optimized for desktop and mobile views
+- <a href="https://github.com/n3o-d4rk3r" target="_blank">Md Kabir Hassan - Lead Developer</a>
+- <a href="https://github.com/siammahfuz" target="_blank">Siam Khan - QA Tester</a>
+- Anushka Bhuiyan - QA Tester
 
-Admin tools for rejudging, manual override, and analytics
+📜 License
 
-🛠️ Technologies Used
-Backend: PHP, MySQL
-
-Frontend: HTML5, CSS3, JavaScript (with possible frameworks)
-
-Judging System: Custom script runner with sandboxing (language support: C, C++, Java, Python, etc.)
-
-Deployment: Hosted on a secure internal or university-managed server
-
-🚫 Code Availability
-Due to institutional policies and confidentiality, the full source code of this project is not available in this repository. Only limited documentation, architecture overview, or mock components may be shared if appropriate.
-
-If you're interested in similar solutions or seeking a collaboration for academic institutions, feel free to get in touch.
-
-📄 License
-This project is protected and owned by State University of Bangladesh. Unauthorized reproduction or reuse of any part of the system is strictly prohibited.
-
-💬 Contact
-For inquiries, collaborations, or demonstration requests:
-
-Md Mahfuzur Rahman Siam
-Lead Developer – SUB Programming Contest Management System
-📧 Email: ksiam3409@gmail.com
-🌐 Portfolio: https://siammahfuz.github.io
+SMSLAB is open-sourced software licensed under the MIT license.
