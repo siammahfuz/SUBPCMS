@@ -1,60 +1,81 @@
 <p align="center">
   <a href="https://laravel.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
+    <img src="https://laravel.com/img/logomark.min.svg" width="100" alt="Laravel Logo">
   </a>
 </p>
-<h1 align="center">SMSLAB - Student Management System</h1>
+
+<h1 align="center">SUB Programming Contest Management System (SUBPCMS)</h1>
 
 <p align="center">
-  <img src="INSERT_YOUR_LOGO_URL" width="150" alt="SMSLAB Logo">
+  <img src="INSERT_YOUR_LOGO_URL" width="150" alt="SUBPCMS Logo">
 </p>
-<p align="center">A robust and user-friendly Student Management System built on the Laravel framework. Simplifying common tasks in student management for seamless workflow in educational institutions.</p>
 
+<p align="center">
+  A robust, modular, and user-friendly platform built with Laravel and Vue.js to manage and organize programming contests at SUB.  
+  Empowering educators and contest organizers with powerful tools to simplify contest creation, grading, and participant engagement.
+</p>
+
+---
 
 ## 🚀 Features
 
-- **User-Friendly Interface** 🌐: Intuitive interface for administrators, teachers, and students.
-- **Attendance Tracking** 📅: Easily monitor student attendance.
-- **Grade Management** 🎓: Effortlessly organize student grades and academic performance.
-- **Communication Hub** 📧: Foster collaboration among teachers, students, and parents.
-- **Security Measures** 🔒: Prioritize student data security with robust measures.
-- **Programming Judge** 💻: Evaluate and grade programming assignments efficiently.
-- **Voting System** 🗳️: Conduct polls for student elections and decision-making.
-- **Blood System** 🩸: Manage a blood donation system for emergencies.
-- **Library Management** 📚: Organize library resources, checkouts, and returns.
-- **Event Calendar** 📅: Manage academic and extracurricular events.
-- **Student Performance Analytics** 📊: Visualize and analyze student performance trends.
-- **Parental Portal** 👨‍👩‍👧: Provide parents a portal to monitor academic progress.
-- **Classroom Collaboration Tools** 🤝: Facilitate collaborative learning with project tools.
-- **Internship/Job Board** 💼: Connect students with relevant opportunities.
-- **Feedback System** 📝: Gather feedback to enhance the educational experience.
-- **Mobile Accessibility** 📱: Ensure accessibility through a responsive design.
+- **Contest Management** 🏆: Create, schedule, and manage programming contests effortlessly.
+- **Problem Editor** ✏️: Add and edit problems with sample inputs/outputs and detailed explanations.
+- **Online Judge** ⚖️: Automatic evaluation of submissions in real-time.
+- **User Dashboard** 📊: Personalized dashboards for contestants, judges, and admins.
+- **Ranking System** 🥇: Live leaderboard and detailed performance analytics.
+- **Submission History** 📂: View, filter, and manage code submissions.
+- **Discussion Forum** 💬: Facilitate participant discussion and problem clarification.
+- **Admin Panel** 🔧: Powerful tools to manage users, contests, and system configurations.
+- **Announcements** 📢: Publish updates and contest news.
+- **Security** 🔒: User authentication, access control, and secure data handling.
+- **Responsive Design** 📱: Accessible from desktops, tablets, and mobile devices.
 
+---
 
+## 🛠️ Built With
 
-## 🛠️ Installation
+- **Laravel** – Elegant PHP framework for rapid backend development.
+- **Vue.js** – Reactive JavaScript framework for a seamless and interactive frontend.
+- **MySQL** – Reliable relational database for storing contest data.
+- **Laravel Sanctum** – Secure authentication for API endpoints.
+- **Laravel Mix** – Asset compilation and frontend build tool.
 
-Follow the steps below to set up SMSLAB on your local machine:
+---
 
-1. Clone the repository:
+## 📦 Installation
 
-   ```bash
-   git clone https://github.com/n3o-d4rk3r/substudentms.git
+Follow these steps to set up SUBPCMS locally:
 
-Laravel is a web application framework with expressive, elegant syntax, making development an enjoyable and creative experience.
-🌟 Sponsors
+```bash
+# Clone the repository
+git clone https://github.com/n3o-d4rk3r/subpcms.git
+cd subpcms
 
-We extend our thanks to the following sponsors for funding Laravel development. Interested in becoming a sponsor? Contact: ictd.kabir@gmail.com.
+# Install PHP dependencies
+composer install
 
-🤝 Partners
-🙌 Contributors
+# Install JavaScript dependencies
+npm install
 
-We extend our gratitude to the following contributors for their valuable contributions to SMSLAB:
+# Copy and configure environment variables
+cp .env.example .env
+php artisan key:generate
 
-- <a href="https://github.com/n3o-d4rk3r" target="_blank">Md Kabir Hassan - Lead Developer</a>
-- <a href="https://github.com/siammahfuz" target="_blank">Siam Khan - QA Tester</a>
-- Anushka Bhuiyan - QA Tester
+# Set up the database (configure DB credentials in .env)
+php artisan migrate
+
+# Build frontend assets
+npm run dev
+
+# Start the development server
+php artisan serve
+
+Developer:
+Md. Mahfuzur Rahman Siam
+Computer Engineer
+Gmail: ksiam3409@gmail.com
+linkedin: https://www.linkedin.com/in/md-mahfuzur-rahman-siam/
 
 📜 License
-
-SMSLAB is open-sourced software licensed under the MIT license.
+SUBPCMS is open-source software licensed under the MIT License.
